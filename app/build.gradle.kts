@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.google.services)
 }
 
+
 android {
     namespace = "com.example.questfirebase_030"
     compileSdk {
