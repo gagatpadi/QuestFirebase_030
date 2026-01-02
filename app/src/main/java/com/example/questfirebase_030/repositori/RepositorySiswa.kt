@@ -4,7 +4,7 @@ import com.example.questfirebase_030.modeldata.Siswa
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 
-interface epositorySiswa {
+interface RepositorySiswa {
     suspend fun getDataSiswa(): List<Siswa>
     suspend fun postDataSiswa(siswa: Siswa)
 }
